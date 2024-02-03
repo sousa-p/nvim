@@ -17,6 +17,8 @@ Plug 'ryanoasis/vim-devicons' " Icons
 Plug 'honza/vim-snippets' " Snippets
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'Xuyuanp/nerdtree-git-plugin' " Git
+Plug 'tpope/vim-fugitive' " Git
+Plug 'airblade/vim-gitgutter' " Git
 Plug 'jiangmiao/auto-pairs' " Auto pair
 
 if (has("nvim"))
@@ -86,3 +88,14 @@ let g:ale_fixers = {
 
 let g:ale_fix_on_save = 1
 let g:ale_enabled = 1
+
+
+" Fugitive """""""
+
+autocmd FileType git nmap <buffer> <Leader>gs :Git<CR>
+autocmd FileType git nmap <buffer> <Leader>gc :Git commit<CR>
+nnoremap <leader>gb :Gblame<CR>
+
+" GitGutter """""""
+
+let g:gitgutter_enabled = 1
