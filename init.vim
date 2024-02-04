@@ -1,5 +1,5 @@
-source ./global.vim
-source ./plugins.vim
-source ./coc.vim
-source ./remaps.vim
-source ./autocmd.vim
+source ~/.config/nvim/global.vim
+source ~/.config/nvim/plugins.vim
+source ~/.config/nvim/coc.vim
+source ~/.config/nvim/remaps.vim
+source ~/.config/nvim/autocmd.vim

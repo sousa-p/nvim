@@ -1,6 +1,6 @@
 " COC (Conquer of Completion) """""""
 
-let g:coc_global_extensions = [ 'coc-snippets', 'coc-explorer']
+let g:coc_global_extensions = [ 'coc-snippets', 'coc-explorer', 'coc-flutter', 'coc-json', 'coc-yaml', 'coc-git' ]
 
 " Use tab for trigger completion with characters ahead and navigate
 " NOTE: There's always complete item selected by default, you may want to enable

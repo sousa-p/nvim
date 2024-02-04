@@ -20,6 +20,7 @@ Plug 'Xuyuanp/nerdtree-git-plugin' " Git
 Plug 'tpope/vim-fugitive' " Git
 Plug 'airblade/vim-gitgutter' " Git
 Plug 'jiangmiao/auto-pairs' " Auto pair
+Plug 'neoclide/coc-snippets', {'do': 'yarn install --frozen-lockfile'}
 
 if (has("nvim"))
     Plug 'nvim-lua/plenary.nvim'
@@ -41,6 +42,7 @@ Plug 'cakebaker/scss-syntax.vim' " CSS
 Plug 'dart-lang/dart-vim-plugin' " Dart
 Plug 'akinsho/flutter-tools.nvim' " Flutter
 Plug 'dense-analysis/ale' " Ale'
+Plug 'dart-lang/dart-vim-plugin', { 'for': 'dart' }
 
 call plug#end()
 
